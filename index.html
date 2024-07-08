@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,8 +27,8 @@
       <a class="header-link" href="/index.html"
         ><span class="header-title">Web</span>Studio
       </a>
-      <nav class="naviganion">
-        <ul>
+      <nav class="navigation">
+        <ul class="navigation-menu">
           <li><a href="">Studio</a></li>
           <li><a href="">Portfolio</a></li>
           <li><a href="">Contacts</a></li>
@@ -39,10 +43,14 @@
     </header>
 
     <main>
-      <h1>Effective Solutions for Your Business</h1>
-      <button type="button">Order Service</button>
+      <section class="section-one">
+        <h1>Effective Solutions for Your Business</h1>
+        <button type="button" class="button">
+          <span class="button-text">Order Service</span>
+        </button>
+      </section>
 
-      <section>
+      <section class="section-second">
         <ul>
           <li>
             <h3>Strategy</h3>
@@ -75,10 +83,10 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Our Team</h2>
+      <section class="section-three">
+        <h2 class="section-title">Our Team</h2>
         <ul>
-          <li>
+          <li class="team">
             <img
               src="./images/img-3.jpg"
               alt="Mark Guerrero Photo"
@@ -105,6 +113,46 @@
             <img src="./images/img.jpg" alt="Daniel Wilson Photo" width="264" />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li>
+            <img src="./images/img-9.jpg" alt="Banking App" width="360" />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img src="./images/img-8.jpg" alt="Cashless Payment" width="360" />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img src="./images/img-4.jpg" alt="Meditaion App" width="360" />
+            <h3>Meditaion App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img src="./images/img-7.jpg" alt="Taxi Service" width="360" />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/img-6.jpg"
+              alt="Screen Illustrations"
+              width="360"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+
+          <li>
+            <img src="./images/img-5.jpg" alt="Online Courses" width="360" />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
           </li>
         </ul>
       </section>
