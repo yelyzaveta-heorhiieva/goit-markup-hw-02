@@ -3,7 +3,6 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   line-height: 1.5;
-  width: 1440px;
 }
 
 a {
@@ -21,7 +20,8 @@ h3 {
   color: #2e2f42;
 }
 
-.logo-title {
+.header-logo-link,
+.footer-logo-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -31,13 +31,14 @@ h3 {
   color: #4d5ae5;
 }
 
-.header-logo-link {
+.header-logo-title {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #2e2f42;
 }
 
 .navigation-list {
@@ -53,7 +54,6 @@ h3 {
 
 .navigation-list :active {
   color: #404bbf;
-  text-decoration: underline;
 }
 
 .mail-link,
@@ -170,7 +170,7 @@ footer {
   background: #2e2f42;
 }
 
-.footer-logo-link {
+.footer-logo-title {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
